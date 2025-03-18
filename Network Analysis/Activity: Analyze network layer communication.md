@@ -42,7 +42,7 @@ Observed Behavior:
 * This indicates that the DNS service was not listening or responding on the expected port.
 * The problem repeated several times.
   
-# Root Cause (To be determined by security engineers):
+# Root Cause:
 
 Possible causes include:
 * DNS server service failure.
