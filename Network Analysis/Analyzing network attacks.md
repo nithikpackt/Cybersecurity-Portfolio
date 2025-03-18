@@ -8,7 +8,7 @@ You use a packet sniffer to capture data packets in transit to and from the web 
 
 You take the server offline temporarily so that the machine can recover and return to a normal operating status. You also configure the company’s firewall to block the IP address that was sending the abnormal number of SYN requests. You know that your IP blocking solution won’t last long, as an attacker can spoof other IP addresses to get around this block. You need to alert your manager about this problem quickly and discuss the next steps to stop this attacker and prevent this problem from happening again. You will need to be prepared to tell your boss about the type of attack you discovered and how it was affecting the web server and employees.
 
-[![Wireshark Logs]([button-image-url](https://iconduck.com/icons/110378/wireshark?shared))]([your-link-url](https://docs.google.com/spreadsheets/d/1enpRzrIao3J2Lp2tOI0hmu1Cu7D7CjLGhFAiTiR9J64/edit?gid=218501934#gid=218501934))
+[![Wireshark Capture](https://iconduck.com/icons/110378/wireshark?shared)](https://docs.google.com/spreadsheets/d/1enpRzrIao3J2Lp2tOI0hmu1Cu7D7CjLGhFAiTiR9J64/edit?gid=218501934#gid=218501934)
 
 | Section 1: Identify the type of attack that may have caused this network interruption |
 |---|
