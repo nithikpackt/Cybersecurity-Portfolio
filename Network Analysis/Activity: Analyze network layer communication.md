@@ -2,7 +2,7 @@
 
 The core issue is that the DNS server is not responding to UDP requests on port 53. This is indicated by the "udp port 53 unreachable" ICMP error messages. This means that DNS resolution is failing, which is preventing users from accessing the website.
 
-## Step-by-Step Instructions
+## Scenario
 
 # Identify the Affected Protocol:
 
