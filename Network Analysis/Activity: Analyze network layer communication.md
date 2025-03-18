@@ -11,12 +11,14 @@ The error message "udp port 53 unreachable" clearly indicates that the UDP proto
 Port 53 is the standard port for the Domain Name System (DNS) service. Therefore, the DNS service is the affected service. Analyze the tcpdump Log (Example based on the description):
 
 Here's a representation of what the tcpdump log might looks like (with example timestamps and IPs):
-13:24:32.192571 192.51.100.15 > 203.0.113.2.domain: 35084+ A? www.yummyrecipesforme.com.
+
+`13:24:32.192571 192.51.100.15 > 203.0.113.2.domain: 35084+ A? www.yummyrecipesforme.com.
 13:24:32.192650 192.51.100.15 > 203.0.113.2.domain: 35084+ A? www.yummyrecipesforme.com.
 13:24:32.193000 203.0.113.2 > 192.51.100.15: ICMP 203.0.113.2 unreachable - udp port 53 unreachable
 13:24:32.193050 203.0.113.2 > 192.51.100.15: ICMP 203.0.113.2 unreachable - udp port 53 unreachable
 13:24:33.194571 192.51.100.15 > 203.0.113.2.domain: 35085+ A? www.yummyrecipesforme.com.
-13:24:33.195000 203.0.113.2 > 192.51.100.15: ICMP 203.0.113.2 unreachable - udp port 53 unreachable
+13:24:33.195000 203.0.113.2 > 192.51.100.15: ICMP 203.0.113.2 unreachable - udp port 53 unreachable`
+
 Explanation:
 The first two lines show your computer (192.51.100.15) sending UDP queries to the DNS server (203.0.113.2) on port 53.
 The following lines show the DNS server responding with ICMP error messages, indicating that UDP port 53 is unreachable.
