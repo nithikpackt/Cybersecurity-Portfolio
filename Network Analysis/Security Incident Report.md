@@ -32,6 +32,10 @@ The cybersecurity team reports that the web server was impacted by a brute force
 
 Your job is to document the incident in detail, including identifying the network protocols used to establish the connection between the user and the website.  You should also recommend a security action to take to prevent brute force attacks in the future.
 
+You can access the tcpdump traffic log here:
+
+[tcpdump traffic log](https://d3c33hcgiwev3.cloudfront.net/DfNS2bS8SFSX2LAq8wdGew_2e223b94ae5c4f7dbf841cee85b247f1_tcpdump-traffic-log.docx?Expires=1742428800&Signature=UEd0sKo-kZFWcDilFsV3uApSd2WGapQMbmJ8KtohICoz85gClbsVlkg6vUpxbclG3F2ZW7UwTQ5nzaNuIvjxRdnmjxtqQq-5berMCvCqr-hjW0JfG1AHQnCjB-njIWpeXD6bPSGfHvKmk8R-y-QMtzHMEEAN90DGJxPrbFS1Xb4_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
+
 ## Security Incident Report:
 
 | Section 1: Identify the network protocol involved in the incident |
