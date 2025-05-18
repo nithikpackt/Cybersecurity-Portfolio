@@ -34,7 +34,7 @@ As a cybersecurity analyst, you are tasked with using this security event to cre
 **Recover** affected systems to normal operation and restore systems data and/or assets that have been affected by an incident.
 
 
-| **Summary**      |   | 
+| **Summary**      | The company recently experienced a security event where all network services became unresponsive. Our cybersecurity team determined the outage was due to a distributed denial-of-service (DDoS) attack, specifically an ICMP flood. The team responded by blocking the attack and suspending non-critical network services to restore essential operations.  | 
 |------------------|---|
 | **Identify**     | Threat actor targeted the company with an ICMP flood attack resulting in complete network unavaialability and caused diruption in major staff operations. Internal network needs to be fixed brought back online  |  
 | **Protect**      |  Maintaining a robust security posture requires the cybersecurity team to be immediately alerted to any attacks. As all staff utilize the internal network, a critical step is to establish a new firewall rule that restricts the rate of incoming ICMP packets. This rule must be consistently updated to address evolving attack trends. The cybersecurity team should also diligently monitor and update all devices, operating systems, and software to ensure the deployment of the latest security updates. Moreover, the implementation of an IDS/IPS system will enable the filtering of ICMP traffic exhibiting suspicious characteristics, further strengthening defenses |   
